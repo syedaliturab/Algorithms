@@ -1,3 +1,3 @@
-Contain algorithms in c++,java and javascript.
+Contain algorithms in java .
 Lets start
 
