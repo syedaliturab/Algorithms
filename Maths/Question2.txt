@@ -1,0 +1,19 @@
+Question - Given two integers A and B, find the greatest possible positive integer M, such that A % M = B % M.
+Solution-
+
+ If A % M = B % M, then:
+
+ A ≡ B (mod M)
+
+ This equivalence can be rewritten as:
+
+ A - B ≡ 0 (mod M)
+
+ Conclusion:
+ This means that M must divide A - B. The largest possible value of M is the absolute difference:
+
+ M = |A - B|
+
+ Why?
+ The divisors of |A - B| include all possible values of M that satisfy the condition A % M = B % M. The greatest such M is |A - B|, as it is the largest number dividing A - B.
+
