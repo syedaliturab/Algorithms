@@ -2,7 +2,7 @@ package Maths;
 
 public class Question1 {
     public static void main(String[] args) {
-        System.out.println(solve("1334332","8747383737"));
+        System.out.println(solve("133432","8747383737"));
     }
     public static String solve(String A, String B) {
     if (A.equals(B))
